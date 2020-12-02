@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>A simple DIY responsive slideshow made with HTML5, CSS3, and JavaScript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="demo/css/demostyles.css">
+        <link rel="stylesheet" href="css/simple-slideshow-styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h1>A Better Simple Slideshow</h1>
+            <p><span class="desc">A simple DIY responsive JavaScript slideshow.</span> [<a href="https://github.com/leemark/better-simple-slideshow">GitHub<span> repo</span></a>]</p>
+        </header>    
+        <div class="bss-slides num1" tabindex="1" autofocus="autofocus">
+            <figure>
+		      <img src="demo/img/medium.jpg" width="100%" /><figcaption>"Medium" by <a href="https://www.flickr.com/photos/thomashawk/14586158819/">Thomas Hawk</a>.</figcaption> 
+            </figure>
+            <figure>
+		      <img src="demo/img/colorado.jpg" width="100%" /><figcaption>"Colorado" by <a href="https://www.flickr.com/photos/stuckincustoms/88370744">Trey Ratcliff</a>.</figcaption> 
+            </figure>
+            <figure>
+		      <img src="demo/img/monte-vista.jpg" width="100%" /><figcaption>"Early Morning at the Monte Vista Wildlife Refuge, Colorado" by <a href="https://www.flickr.com/photos/davesoldano/8572429635">Dave Soldano</a>.</figcaption> 
+            </figure>
+            <figure>
+		      <img src="demo/img/sunrise.jpg" width="100%" /><figcaption>"Sunrise in Eastern Colorado" by <a href="https://www.flickr.com/photos/35528040@N04/6673031153">Pam Morris</a>.</figcaption> 
+            </figure>
+            <figure>
+		      <img src="demo/img/colorado-colors.jpg" width="100%" /><figcaption>"colorado colors" by <a href="https://www.flickr.com/photos/cptspock/2857543585">Jasen Miller</a>.</figcaption> 
+            </figure>
+            <figure>
+              <img src="demo/img/1.png" width="100%" /><figcaption>"colorado colors" by <a href="https://www.flickr.com/photos/cptspock/2857543585">Jasen Miller</a>.</figcaption> 
+            </figure>
+        </div> <!-- // bss-slides -->  
+<div class="content">
+<script src="demo/js/hammer.min.js"></script><!-- for swipe support on touch interfaces -->
+<script src="js/better-simple-slideshow.min.js"></script>
+<script>
+var opts = {
+    auto : {
+        speed : 10000, 
+        pauseOnHover : true
+    },
+    fullScreen : false, 
+    swipe : true
+};
+makeBSS('.num1', opts);
+
+var opts2 = {
+    auto : false,
+    fullScreen : true,
+    swipe : true
+};
+makeBSS('.num2', opts2);
+</script>
+</body>
+</html>
