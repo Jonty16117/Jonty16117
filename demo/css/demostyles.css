@@ -4,11 +4,11 @@
    margin-left: auto;
    margin-right: auto;
    margin-top: 200px;
-   background-color: gray;
+   background-color: blue;
    padding: 0px;
    border-color: black;
    border-style: solid;
-   width: 200px;
+   width: 220px;
    border-radius: 13px;
 }
 
@@ -19,8 +19,7 @@ button {
 }
 
 .Iinput{
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 19px;
 }
 
 body {
