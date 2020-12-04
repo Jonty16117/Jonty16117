@@ -30,16 +30,15 @@ body {
 }
 header{
   position: absolute;
-  z-index: -1;
+  z-index: -9999;
   width: 100%;    
   background: rgba(0,0,0,.5);
   text-align: center;
   font-size: 100px;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300; 
-  margin: .8em 0 .2em 0;
-  line-height: 5;
+  font-weight: 300;
 }
+
 h1, h2, h3{   
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700; 
