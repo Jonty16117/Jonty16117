@@ -11,275 +11,39 @@
         <link rel="stylesheet" href="css/simple-slideshow-styles.css">
     </head>
     <body>
+        <div class="container">
+            <form name="login">
+            <div class="Iinput">Username</div>
+            <input class="Iinput" type="text" id="username">
+            <div class="Iinput">Password</div>
+            <input class="Iinput" type="password" id="password"><br>
+            <button type="button" onclick="testtrue();" name="loginbutton">login</button>
+            </form>
+        </div>
+
+        <script>
+            function testtrue(){
+                var Usname = document.getElementById("username").value;
+                var passW = document.getElementById("password").value;
+                var lengthun = document.getElementById("username").length;
+                var lengthpw = document.getElementById("password").length;
+                    if (Usname === "Happy Birthday" && passW === "Jaan"){
+                    window.location.replace("./index2.html");
+                    }else {
+                    console.log("password: " + passW + " isn't valid!!");
+                    }
+                }
+        </script>
+
+
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header>
-            Loading...
-        </header>    
-        <div class="bss-slides num1" tabindex="1" autofocus="autofocus">
-            <figure>
-              <img src="demo/img/1.png" width="100%" /><figcaption>Keep on swiping right👉</figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/2.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/3.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-    
-            <figure>
-              <img src="demo/img/4.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/5.png" width="100%" /><figcaption></figcaption> 
-            </figure> 
-
-            <figure>
-              <img src="demo/img/6.png" width="100%" /><figcaption></figcaption> 
-            </figure> 
-
-            <figure>
-              <img src="demo/img/fills.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills2.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills3.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/7.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills4.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-            
-            <figure>
-              <img src="demo/img/8.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills5.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills6.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/9.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/10.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/11.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/12.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/13.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/14.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/15.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/16.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/17.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/18.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/19.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/20.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/21.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills2.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/22.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/23.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/24.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/25.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills3.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills4.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/26.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/27.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills5.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills6.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/28.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/29.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills2.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/30.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills3.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/31.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills4.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/32.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/33.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/34.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/35.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills5.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/fills6.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/36.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-            
-            <figure>
-              <img src="demo/img/37.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/38.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/39.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/40.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/41.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/42.png" width="100%" /><figcaption>(Say yes, Say yes, Say yes...😬)</figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/43.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/44.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/45.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/46.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-            <figure>
-              <img src="demo/img/47.png" width="100%" /><figcaption></figcaption> 
-            </figure>
-
-        </div> <!-- // bss-slides -->  
+        <![endif]-->   
+        
 <div class="content">
+
+
+
 <script src="demo/js/hammer.min.js"></script><!-- for swipe support on touch interfaces -->
 <script src="js/better-simple-slideshow.min.js"></script>
 <script>
