@@ -8,6 +8,7 @@
 
 💡 &nbsp;I like to explore new technologies and develop software solutions and quick hacks.\
 🎓 &nbsp;I'm currently studying Computer Science at the Malout Institute of Management and Information Technology, Malout, Punjab, India.\
+💪 &nbsp;I create android apps and web apps.\
 🌱 &nbsp;I'm on track for creating web a better place, develop better and efficient systems.\
 ✍️ &nbsp;In my free time, I pursue Graphic Design and watch informative youtube videos, play football and guitar as hobbies/side hustles.\
 💬 &nbsp;Feel free to reach out to me for pro bono consulting and volunteering, or just for some interesting discussion.\
