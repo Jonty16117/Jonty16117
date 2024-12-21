@@ -6,14 +6,17 @@
 
 ### 👨🏻‍💻 &nbsp;About Me
 
-💡  I am a student pursuing Masters in Computer Science and working part-time as a DevOps engineer working on improving mediawiki softwares. Currently, I am focused on building DevOps pipelines and working with Linux environments. \
-🎓  I have a strong passion for exploring new technologies and developing software solutions and quick hacks. \
-🌱  I am constantly learning and striving to improve my skills in order to make the web a better place. \
-✍️  In my free time, I enjoy watching informative YouTube videos and playing football. \
-💬  Feel free to reach out to me for pro bono consulting, volunteering, or engaging in interesting discussions. \
-✉️  You can contact me via email at jontykantiwal@gmail.com. I'll do my best to respond as soon as possible. \
-📄  Please take a look at my Résumé for more details about me. I'm open to feedback and suggestions!
+💻 Hey there! I'm a DevOps Engineer with a knack for CI/CD, cloud stuff, and automation. I'm also studying for my Master's in Applied Computer Science, diving into tech like Docker, Kubernetes, and AWS. 🌥️
 
+🎓 I’m super passionate about new technologies and love making things more efficient. Right now, I’m working on improving CI/CD for BlueSpice MediaWiki and automating all the things. 🚀
+
+🌱 Always learning and trying to get better at making things faster, cheaper, and cooler. 🚧🔧
+
+⚽ In my free time, you'll find me either watching fun tech videos or kicking a football around. ⚡
+
+💬 Want to chat, need pro bono consulting, or just want to geek out over tech? Hit me up! 😎
+
+✉️ Drop me an email at jontykantiwal@gmail.com. I’ll get back to you ASAP! 📩
 <img alt="Night Coding" src="https://raw.githubusercontent.com/Jonty16117/Jonty16117/main/assets/Night-Coding.gif" align="right"/>
 
 ### 🛠 &nbsp;Tech Stack
