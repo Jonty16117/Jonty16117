@@ -30,23 +30,14 @@ DevOps Engineer focused on **CI/CD, Cloud, Automation, Docker, Kubernetes, and A
 
 ---
 
-## 📊 GitHub Stats
+## 🤝 Connect with Me
 
 <p align="center">
-<a href="https://github.com/Jonty16117">
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Jonty16117&show_icons=true&theme=algolia"/>
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Jonty16117&layout=compact&theme=algolia"/>
-</a>
-</p>
-
----
-
-## 🤝 Connect
-
 <a href="https://www.linkedin.com/in/jonty16117/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Jonty-0077B5?style=flat&logo=Linkedin&logoColor=white"/>
 </a>
 
 <a href="mailto:jontykantiwal@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/-jontykantiwal@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/>
 </a>
+</p>
